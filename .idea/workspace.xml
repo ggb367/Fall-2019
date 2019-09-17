@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/366K/hw3/hw3-7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/366K/hw3/hw3-4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +28,7 @@
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/366K/hw3/hw3-7.py" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -128,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568672756536</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hw 3-7">
+      <created>1568691585345</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568691585345</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +155,7 @@
     <MESSAGE value="removed unneeded files" />
     <MESSAGE value="completed hw 2" />
     <MESSAGE value="hw 3-6" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 3-6" />
+    <MESSAGE value="hw 3-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 3-7" />
   </component>
 </project>
