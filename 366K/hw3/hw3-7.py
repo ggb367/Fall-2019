@@ -17,12 +17,12 @@ h = lg.norm(h)
 # calculate r and v as a function of the anomaly
 r = np.multiply((h*h/MU), np.divide(1, (1+np.multiply(e_norm, cos))))  # orbit equation
 a = (r[205]*(1+e_norm*np.cos(theta[205])))/(1-e_norm*e_norm)  # use any r and theta paring to find a
-v = np.sqrt(MU*(np.divide(2, r))-1/a)  # use r and a to find v
+v = np.sqrt(MU*(np.divide(2, r))-1/a)  # use r and a to find v, from vis-viva
 # Find the energies
 KE = 0.5*np.square(v)
-PE = np.divide(MU, r)
-TE = KE-PE
-dTE = TE - (KE[0]-PE[0])
+PE = -np.divide(MU, r)
+TE = KE+PE
+dTE = TE - (KE[0]+PE[0])
 # plot everything
 plt.plot(theta, KE, label="Kinetic Energy")
 plt.plot(theta, PE, label="Potential Energy")

@@ -4,7 +4,6 @@
     <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/366K/hw3/hw3-4.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw3/hw3-4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/366K/hw3/hw3-6.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw3/hw3-6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/366K/hw3/hw3-7.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw3/hw3-7.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3-4">
+  <component name="RunManager" selected="Python.hw3-7.py">
     <configuration name="3-4" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568769449549</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="number 4">
+      <created>1568866141806</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568866141806</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
