@@ -17,7 +17,7 @@ for i in range(np.size(e)):
     plt.plot(x, y, label=str(e_temp))
 plt.grid()
 #plt.plot(0, 0, 'bo')
-circ = plt.Circle((0, 0), 1, color='b')
+circ = plt.Circle((0, 0), 1, color='b', label='Earth')
 plt.gcf().gca().add_artist(circ)
 plt.legend(bbox_to_anchor=(1.165, 1), loc="upper right", borderaxespad=0.)
 plt.title("Orbits with Varying Eccentricity")

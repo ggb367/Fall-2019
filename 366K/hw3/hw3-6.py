@@ -6,7 +6,7 @@ MU = 1  # DU^3/TU^2
 r = [-1.2, 1.5, 0]
 v = [0, 0, .922]
 h = np.cross(r, v)
-print("The momentum vector is: "+str(h))
+print("The momentum vector is: "+str(h) + "DU^2/TU")
 v_norm = lg.norm(v)
 r_norm = lg.norm(r)
 eps = (v_norm*v_norm)/2 - MU/r_norm
