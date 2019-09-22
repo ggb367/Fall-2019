@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="begin hw 4, turned in hw 3">
+    <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/366K/hw4/4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/366K/hw4/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw4/3.py" afterDir="false" />
     </list>
@@ -23,13 +24,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/366K/hw4/3.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/366K/hw4/4.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1Q7mRQ4wwBQp0Lpw9fHrwPbXy8p" />
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/366K/hw4/3.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/366K/hw4/4.py" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -51,28 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3">
-    <configuration name="3-4" type="PythonConfigurationType" factoryName="Python">
-      <module name="Code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Gilbert\Documents\fall19\Code\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw3" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw3/hw3-4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.4">
     <configuration name="3" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,6 +67,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw4/3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4" type="PythonConfigurationType" factoryName="Python">
+      <module name="Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Gilbert\Documents\fall19\Code\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw4/4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +119,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.3" />
-      <item itemvalue="Python.3-4" />
+      <item itemvalue="Python.4" />
       <item itemvalue="Python.hw3-6" />
     </list>
   </component>
@@ -195,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569097631261</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="hw4 - 3">
+      <created>1569174152435</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1569174152435</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +229,7 @@
     <MESSAGE value="number 4" />
     <MESSAGE value="Code mostly done" />
     <MESSAGE value="begin hw 4, turned in hw 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin hw 4, turned in hw 3" />
+    <MESSAGE value="hw4 - 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw4 - 3" />
   </component>
 </project>
