@@ -13,8 +13,8 @@ def hyper_orbit_prop(time_series, n, e, t_p):
     θ = np.empty(np.size(time_series))
     e_norm = lg.norm(e)
     # Helper Functions
-    def f(x, m_e):
-        return -x+e_norm*np.sinh(x)-m_e
+    def f(x, m_h):
+        return -x+e_norm*np.sinh(x)-m_h
     def df(x):
         return -1+e_norm*np.cosh(x)
     # propagate through the time series
@@ -41,6 +41,7 @@ v_0 = [0, 0, 3.5511]  # km/s
 # a
 r_0_norm = lg.norm(r_0)
 v_0_norm = lg.norm(v_0)
+print("THIS IS R NORM"+str(r_0_norm))
 h = np.cross(r_0, v_0)
 e = np.cross(v_0, h)/MU - np.divide(r_0, r_0_norm)
 e_norm = lg.norm(e)
@@ -64,14 +65,14 @@ theta_0 = np.arccos(k/e_norm)  # anomaly at initial condition
 if np.dot(r_0, v_0) < 0:
     theta_0 = 2*math.pi - theta_0
 print("b. Anomaly at t_0 is "+str(theta_0))
-F_0 = 2*math.atan2(np.sqrt(e_norm+1)*np.tanh(theta_0/2), np.sqrt(e_norm-1))
+F_0 = 2*math.atanh(np.sqrt((e_norm-1)/(e_norm+1))*np.tan(theta_0/2))
 print("Eccentric Anomaly at t_0 is: "+str(F_0))
 M_h_0 = -F_0+e_norm*np.sinh(F_0)
 print("Mean Anomaly at t_0 is: "+str(M_h_0))
 
 # c
 a = h_norm**2/MU*(e_norm**2-1)**-1
-n = np.sqrt(MU/math.pow(a, 3))
+n = np.sqrt(MU/a**3)
 t_p = M_h_0/n
 print("c. t_p is: "+str(t_p))
 

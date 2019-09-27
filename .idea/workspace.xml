@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/366K/hw4/4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/366K/hw4/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw4/3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/366K/hw4/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw4/4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4">
+  <component name="RunManager" selected="Python.3">
     <configuration name="3" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569174152435</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="3 and 4 done">
+      <created>1569191226481</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569191226481</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +237,23 @@
     <MESSAGE value="Code mostly done" />
     <MESSAGE value="begin hw 4, turned in hw 3" />
     <MESSAGE value="hw4 - 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw4 - 3" />
+    <MESSAGE value="3 and 4 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 and 4 done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/366K/hw4/4.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/366K/hw4/3.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

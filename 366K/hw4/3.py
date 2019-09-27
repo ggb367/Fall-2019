@@ -35,7 +35,7 @@ def orbit_prop(time_series, n, e, t_p):
     return θ, E, M
 
 # Initial conditions
-r_0 = [-17310, 39, -784]  # km
+r_0 = [-17130, 39, -784]  # km
 v_0 = [-.251, -2.827, 3.754]  # km/s
 
 # a
@@ -59,7 +59,7 @@ elif e_norm > 1:
 
 # b
 h_norm = lg.norm(h)
-k = (h_norm*h_norm)/(r_0_norm*MU) - 1
+k = (h_norm**2)/(r_0_norm*MU) - 1
 theta_0 = np.arccos(k/e_norm)  # anomaly at initial condition
 if np.dot(r_0, v_0) < 0:
     theta_0 = 2*np.pi() - theta_0
@@ -71,7 +71,7 @@ print("Mean Anomaly at t_0 is: "+str(M_E_0))
 
 # c
 a = (r_0_norm*(1+e_norm*np.cos(theta_0)))/(1-e_norm*e_norm)
-n = np.sqrt(MU/math.pow(a, 3))
+n = np.sqrt(MU/a**3)
 t_p = M_E_0/n
 print("c. t_p is: "+str(t_p))
 
