@@ -41,7 +41,6 @@ v_0 = [0, 0, 3.5511]  # km/s
 # a
 r_0_norm = lg.norm(r_0)
 v_0_norm = lg.norm(v_0)
-print("THIS IS R NORM"+str(r_0_norm))
 h = np.cross(r_0, v_0)
 e = np.cross(v_0, h)/MU - np.divide(r_0, r_0_norm)
 e_norm = lg.norm(e)

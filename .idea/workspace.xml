@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/366K/hw4/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw4/3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/366K/hw4/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw4/4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569191226481</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="is t_p negative?">
+      <created>1569557682469</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1569557682469</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,16 +243,12 @@
     <MESSAGE value="begin hw 4, turned in hw 3" />
     <MESSAGE value="hw4 - 3" />
     <MESSAGE value="3 and 4 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 and 4 done" />
+    <MESSAGE value="is t_p negative?" />
+    <option name="LAST_COMMIT_MESSAGE" value="is t_p negative?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/366K/hw4/4.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/366K/hw4/3.py</url>
           <line>89</line>
