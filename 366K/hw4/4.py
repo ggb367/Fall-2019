@@ -73,7 +73,7 @@ print("Mean Anomaly at t_0 is: "+str(M_h_0))
 # c
 a = h_norm**2/MU*(e_norm**2-1)**-1
 n = np.sqrt(MU/a**3)
-t_p = M_h_0/n
+t_p = -M_h_0/n
 print("c. t_p is: "+str(t_p))
 
 # d
