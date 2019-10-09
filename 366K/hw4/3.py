@@ -42,7 +42,7 @@ v_0 = [-.251, -2.827, 3.754]  # km/s
 r_0_norm = lg.norm(r_0)
 v_0_norm = lg.norm(v_0)
 h = np.cross(r_0, v_0)
-e = np.cross(v_0, h)/MU - np.divide(r_0, r_0_norm)
+e = np.cross(v_0, h)/MU - np.divide(r_0, r_0_norm)  # energy
 e_norm = lg.norm(e)
 if e_norm == 0:
     print('a. It is a circular orbit')

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/366K/hw5/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/366K/hw5/4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/366K/hw4/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw4/3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +24,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/366K/hw5/4.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/366K/hw5/3.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/366K/hw4/3.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/366K/hw4/4.py" root0="SKIP_INSPECTION" />
   </component>
@@ -29,7 +34,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/366K/hw4/4.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/366K/hw5/4.py" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -51,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3">
+  <component name="RunManager" selected="Python.4">
     <configuration name="3" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,11 +65,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Gilbert\Documents\fall19\Code\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw5" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw4/3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw5/3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,11 +86,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Gilbert\Documents\fall19\Code\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw5" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw4/4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw5/4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569557682469</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="final commit for hw4">
+      <created>1569600719854</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569600719854</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +256,8 @@
     <MESSAGE value="hw4 - 3" />
     <MESSAGE value="3 and 4 done" />
     <MESSAGE value="is t_p negative?" />
-    <option name="LAST_COMMIT_MESSAGE" value="is t_p negative?" />
+    <MESSAGE value="final commit for hw4" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit for hw4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
