@@ -1,12 +1,10 @@
 import numpy as np
 import math as m
 import numpy.linalg as lg
-import sys
+import warnings
 
-if not sys.warnoptions:
-    import warnings
-    warnings.simplefilter("ignore")
-    # I live life dangerously
+warnings.simplefilter("ignore")
+# I live life dangerously
 
 
 def cart2elm(r, v, mu):
@@ -15,11 +13,9 @@ def cart2elm(r, v, mu):
     v_norm = lg.norm(v)
     e = np.cross(v, h) / mu - np.divide(r, r_norm)  # eccentricity
     e_norm = lg.norm(e)
-
     ε = (v_norm**2)/2 - mu/r_norm
     h_norm = lg.norm(h)
     k = (h_norm ** 2) / (r_norm * mu) - 1
-
     if ε < 0:
         a = -mu/(2*ε)
     elif -10e-12 < ε < 10e-12:
@@ -41,6 +37,7 @@ def cart2elm(r, v, mu):
             θ = 2*m.pi-θ
     elif e_norm < 10e-12:
         ω = 0
+        Ω = np.arccos(np.dot(n, [1, 0, 0]) / n_norm)
         θ = np.arccos(np.dot((n/n_norm),r)/r_norm)
         if r[2]< 0:
             θ = 2*m.pi-θ
