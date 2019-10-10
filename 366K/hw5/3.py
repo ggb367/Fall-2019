@@ -47,6 +47,9 @@ def cart2elm(r, v, mu):
         if e[1]< 0:
             ω = 2*m.pi-ω
     θ = 180*θ/m.pi
+    i = 180*i/m.pi
+    Ω = 180*Ω/m.pi
+    ω = 180*ω/m.pi
     E = [a, e_norm, i, Ω, ω, θ]
     return E
 
