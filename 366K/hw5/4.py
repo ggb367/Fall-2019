@@ -31,12 +31,12 @@ def elm2cart(E, mu):
 
 MU_real = 398600.4415
 MU_simp = 1
- #2
-E = [1, .82, 171, 22, 130, 216]
-r_2, v_2 = elm2cart(E, MU_simp)
-print("Part 2:")
-print("r = " + str(r_2))
-print("v = " + str(v_2))
+#2
+#E = [1, .82, 171, 22, 130, 216]
+#r_2, v_2 = elm2cart(E, MU_simp)
+#print("Part 2:")
+#print("r = " + str(r_2))
+#print("v = " + str(v_2))
 # Part A
 E = [26778.9, 0.40000, 142.43, 177.92, 105.30, 162.17]
 r_a, v_a = elm2cart(E, MU_real)

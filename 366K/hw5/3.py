@@ -27,6 +27,8 @@ def cart2elm(r, v, mu):
     n_norm = lg.norm(n)
     if e_norm < 10e-12 or e_norm > 10e-12:
         θ = np.arccos(k/e_norm)
+        if np.dot(r,v)<0:
+            θ = 2*m.pi-θ
         Ω = np.arccos(np.dot(n, [1, 0, 0])/n_norm)
         ω = np.arccos(np.dot(n, e)/(e_norm*n_norm))
     if e_norm < 10e-12 and i < 10e-12:
