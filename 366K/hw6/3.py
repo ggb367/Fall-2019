@@ -74,28 +74,29 @@ for i in range(np.size(r)):
     eng[i] = (np.dot(v_vec[i, :], v_vec[i, :])/2 - U[i]) - eng_0
 E_0 = sf.cart2elm(r_0, v_0, MU, deg=False)
 OMG_dot = (-(1.5*(np.sqrt(MU)*jdos*RE**2)/(((1-E_0[1]**2)**2)*E_0[0]**3.5)))*np.cos(E_0[2])
-print("Omega_dot : "+ str(OMG_dot)+"rad/s")
+print("Omega_dot : "+ str(OMG_dot)+" rad/s")
 
 plt.figure()
-
+plt.suptitle("Position, Velocity, & Acceleration vs. Time")
 plt.subplot(3, 1, 1)
 plt.plot(t/3600, r)
 plt.ylabel('km', size=16)
-
 plt.subplot(3, 1, 2)
 plt.plot(t/3600, v)
 plt.ylabel('km/s', size=16)
-
 plt.subplot(3, 1, 3)
 plt.plot(t/3600, a)
-plt.ylabel('km/s^2', size=16)
+plt.ylabel('$km/s^2$', size=16)
 plt.xlabel('Hours', size=16)
+
 plt.figure()
+plt.title("Change in Energy vs. Time")
 plt.plot(t/3600, eng)
 plt.ylabel('Energy', size=16)
 plt.xlabel('Hours', size=16)
 
 plt.figure()
+plt.suptitle("Orbital Elements vs. Time")
 plt.subplot(6, 1, 1)
 plt.plot(t/3600, elms[:, 0])
 plt.xlabel('Days')

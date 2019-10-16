@@ -75,26 +75,28 @@ def main():
         v_vec[i, 2] = output[i, 6]
         elms[i] = sf.cart2elm(r_vec[i, :], v_vec[i, :], MU)
     eng = .5*np.power(v, 2) - np.divide(MU, r) - (.5*lg.norm(v_0)**2 - MU/lg.norm(r_0))
-    plt.figure()
 
+    plt.figure()
+    plt.suptitle("Position, Velocity, & Acceleration vs. Time")
     plt.subplot(3, 1, 1)
     plt.plot(t/3600, r)
     plt.ylabel('km', size=16)
-
     plt.subplot(3, 1, 2)
     plt.plot(t/3600, v)
     plt.ylabel('km/s', size=16)
-
     plt.subplot(3, 1, 3)
     plt.plot(t/3600, a)
-    plt.ylabel('km/s^2', size=16)
+    plt.ylabel('$km/s^2$', size=16)
     plt.xlabel("Hours", size=16)
+
     plt.figure()
+    plt.title("Change in Energy vs. Time")
     plt.plot(t/3600, eng)
     plt.ylabel('Energy', size=16)
     plt.xlabel('Hours', size=16)
 
     plt.figure()
+    plt.suptitle("Orbital Elements vs. Time")
     plt.subplot(6, 1, 1)
     plt.plot(t/3600, elms[:, 0])
     plt.ylabel('a')
