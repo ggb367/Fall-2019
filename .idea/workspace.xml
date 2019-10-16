@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/366K/hw6/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/366K/hw6/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Code.iml" afterDir="false" />
+    <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="hw6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/366K/hw6/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw6/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/366K/hw6/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw6/3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/space_functions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2">
+  <component name="RunManager" selected="Python.3">
     <configuration name="2" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570769250684</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="hw6">
+      <created>1571259534972</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1571259534972</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,7 +316,8 @@
     <MESSAGE value="hw5" />
     <MESSAGE value="hw5-complete" />
     <MESSAGE value="forgot to add quadrant check" />
-    <option name="LAST_COMMIT_MESSAGE" value="forgot to add quadrant check" />
+    <MESSAGE value="hw6" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -319,11 +326,6 @@
           <url>file://$PROJECT_DIR$/366K/hw4/3.py</url>
           <line>89</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/366K/hw6/3.py</url>
-          <line>59</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

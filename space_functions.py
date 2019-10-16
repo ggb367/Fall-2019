@@ -61,7 +61,7 @@ def hyper_orbit_prop(time_series, n, e, t_p):
     return theta, F, M
 
 
-def cart2elm(r, v, mu):
+def cart2elm(r, v, mu, deg=True):
     h = np.cross(r, v)
     r_norm = lg.norm(r)
     v_norm = lg.norm(v)
@@ -102,10 +102,11 @@ def cart2elm(r, v, mu):
         omega = np.arccos(np.dot(e, [1, 0, 0])/e_norm)
         if e[1]< 0:
             omega = 2*m.pi-omega
-    theta = 180*theta/m.pi
-    i = 180*i/m.pi
-    OMG = 180*OMG/m.pi
-    omega = 180*omega/m.pi
+    if deg:
+        theta = 180*theta/m.pi
+        i = 180*i/m.pi
+        OMG = 180*OMG/m.pi
+        omega = 180*omega/m.pi
     E = [a, e_norm, i, OMG, omega, theta]
     return E
 

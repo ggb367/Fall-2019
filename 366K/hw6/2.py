@@ -74,7 +74,7 @@ def main():
         v_vec[i, 1] = output[i, 5]
         v_vec[i, 2] = output[i, 6]
         elms[i] = sf.cart2elm(r_vec[i, :], v_vec[i, :], MU)
-    eng = .5*np.power(v, 2) - np.divide(MU, r)
+    eng = .5*np.power(v, 2) - np.divide(MU, r) - (.5*lg.norm(v_0)**2 - MU/lg.norm(r_0))
     plt.figure()
 
     plt.subplot(3, 1, 1)
