@@ -1,8 +1,8 @@
-import math as m
+import matplotlib.pyplot as plt
 import numpy as np
 import numpy.linalg as lg
-import matplotlib.pyplot as plt
 from scipy.integrate import ode
+
 import space_functions as sf
 
 
@@ -77,7 +77,7 @@ for i in range(np.size(r)):
     eng[i] = (np.dot(v_vec[i, :], v_vec[i, :])/2 - U[i]) - eng_0
 E_0 = sf.cart2elm(r_0, v_0, MU, deg=False)
 OMG_dot = (-(1.5*(np.sqrt(MU)*jdos*RE**2)/(((1-E_0[1]**2)**2)*E_0[0]**3.5)))*np.cos(E_0[2])
-print("Omega_dot : "+ str(OMG_dot)+" rad/s")
+print("Omega dot: "+ str(OMG_dot)+" rad/s")
 
 plt.figure()
 plt.suptitle("Position, Velocity, & Acceleration vs. Time")
@@ -100,29 +100,23 @@ plt.xlabel('Hours', size=16)
 
 plt.figure()
 plt.suptitle("Orbital Elements vs. Time")
-plt.subplot(6, 1, 1)
+plt.subplot(3, 2, 1)
 plt.plot(t/3600, elms[:, 0])
-a = plt.ylabel('a [km]')
-a.set_rotation(0)
-plt.subplot(6, 1, 2)
+plt.ylabel('a [km]')
+plt.subplot(3, 2, 2)
 plt.plot(t / 3600, elms[:, 1])
-b = plt.ylabel('e')
-b.set_rotation(0)
-plt.subplot(6, 1, 3)
+plt.ylabel('e')
+plt.subplot(3, 2, 3)
 plt.plot(t / 3600, elms[:, 2])
-c = plt.ylabel('i [deg]')
-c.set_rotation(0)
-plt.subplot(6, 1, 4)
+plt.ylabel('i [deg]')
+plt.subplot(3, 2, 4)
 plt.plot(t / 3600, elms[:, 3])
-d = plt.ylabel('RAAN [deg]')
-d.set_rotation(0)
-plt.subplot(6, 1, 5)
+plt.ylabel('RAAN [deg]')
+plt.subplot(3, 2, 5)
 plt.plot(t / 3600, elms[:, 4])
-e = plt.ylabel('Arg of Periapsis [deg]')
-e.set_rotation(0)
-plt.subplot(6, 1, 6)
+plt.ylabel('Arg of Periapsis [deg]')
+plt.subplot(3, 2, 6)
 plt.plot(t / 3600, elms[:, 5])
 plt.xlabel('Hours')
-f = plt.ylabel('Anomaly [deg]')
-f.set_rotation(0)
+plt.ylabel('Anomaly [deg]')
 plt.show()

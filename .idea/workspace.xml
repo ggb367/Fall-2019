@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/320/hw5/2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/366K/hw6/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw6/2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/366K/hw6/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw6/3.py" afterDir="false" />
@@ -37,11 +38,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/366K/hw6/3.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/366K/hw6" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gilbert\Documents\fall19\Code\366K\hw6" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Gilbert\Documents\fall19\Code" />
       <recent name="C:\Users\Gilbert\Documents\fall19\Code\366K\hw6" />
@@ -61,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3">
+  <component name="RunManager" selected="Python.2">
     <configuration name="2" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,6 +100,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw6/3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="circs" type="PythonConfigurationType" factoryName="Python">
+      <module name="Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Gilbert\Documents\fall19\Code\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/320/hw5" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/320/hw5/2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,6 +173,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.3" />
+      <item itemvalue="Python.circs" />
       <item itemvalue="Python.2" />
       <item itemvalue="Python.ode_example" />
       <item itemvalue="Python.hw3-6" />
@@ -297,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571266496969</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fixed acceleration">
+      <created>1571339929261</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1571339929261</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,7 +365,8 @@
     <MESSAGE value="hw6" />
     <MESSAGE value="fixed energy, added omega dot" />
     <MESSAGE value="added titles to plots" />
-    <option name="LAST_COMMIT_MESSAGE" value="added titles to plots" />
+    <MESSAGE value="fixed acceleration" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed acceleration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
