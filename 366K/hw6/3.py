@@ -36,7 +36,7 @@ rv = ode(derivFcn)
 
 #  The integrator type 'dopri5' is the same as MATLAB's ode45()!
 #  rtol and atol are the relative and absolute tolerances, respectively
-rv.set_integrator('dopri5', rtol=1e-6, atol=1e-6)
+rv.set_integrator('dopri5', rtol=1e-10, atol=1e-20)
 rv.set_initial_value(Y_0, T0)
 output = []
 output.append(np.insert(Y_0, 0, T0))
