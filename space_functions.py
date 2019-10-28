@@ -83,52 +83,52 @@ def cart2elm(r, v, mu, deg=True):
         theta = np.arccos(k/e_norm)
         if np.dot(r,v)<0:
             theta = 2*m.pi-theta
-        OMG = np.arccos(np.dot(n, [1, 0, 0])/n_norm)
+        RAAN = np.arccos(np.dot(n, [1, 0, 0])/n_norm)
         omega = np.arccos(np.dot(n, e)/(e_norm*n_norm))
     if e_norm < 10e-12 and i < 10e-12:
-        OMG = 0
+        RAAN = 0
         omega = 0
         theta = np.arccos(r[1]/r_norm)
         if r[1] < 0:
             theta = 2*m.pi-theta
     elif e_norm < 10e-12:
         omega = 0
-        OMG = np.arccos(np.dot(n, [1, 0, 0]) / n_norm)
+        RAAN = np.arccos(np.dot(n, [1, 0, 0]) / n_norm)
         theta = np.arccos(np.dot((n/n_norm),r)/r_norm)
         if r[2]< 0:
             theta = 2*m.pi-theta
     elif i < 10e-12:
-        OMG = 0
+        RAAN = 0
         omega = np.arccos(np.dot(e, [1, 0, 0])/e_norm)
         if e[1]< 0:
             omega = 2*m.pi-omega
     if deg:
         theta = 180*theta/m.pi
         i = 180*i/m.pi
-        OMG = 180*OMG/m.pi
+        RAAN = 180*RAAN/m.pi
         omega = 180*omega/m.pi
-    E = [a, e_norm, i, OMG, omega, theta]
+    E = [a, e_norm, i, RAAN, omega, theta]
     return E
 
 
 def elm2cart(E, mu):
-    # E - [a, e, i, OMG, omega, theta]
+    # E - [a, e, i, RAAN, omega, theta]
     a = E[0]
     e = E[1]
     i = m.pi * E[2] / 180
-    OMG = m.pi * E[3] / 180
+    RAAN = m.pi * E[3] / 180
     omega = m.pi * E[4] / 180
     theta = m.pi * E[5] / 180
     p = a*(1 - e**2)
     r_pqw = np.array([(p/(1+e*np.cos(theta)))*np.cos(theta), (p/(1+e*np.cos(theta)))*np.sin(theta), 0])
     v_pqw = np.array([np.sqrt(mu/p)*(-np.sin(theta)), np.sqrt(mu/p)*(e+np.cos(theta)), 0])
-    # R_3(-OMG)R_1(-i)R_3(-omega)
+    # R_3(-RAAN)R_1(-i)R_3(-omega)
     c1 = np.cos(-omega)
     c2 = np.cos(-i)
-    c3 = np.cos(-OMG)
+    c3 = np.cos(-RAAN)
     s1 = np.sin(-omega)
     s2 = np.sin(-i)
-    s3 = np.sin(-OMG)
+    s3 = np.sin(-RAAN)
     q1 = np.array([c1*c3-c2*s1*s3, c3*s1+c1*c2*s3, s3*s2])
     q2 = np.array([-c1*s3-c3*c2*s1, c1*c2*c3-s1*s3, c1*s2])
     q3 = np.array([s1*s2, -c1*s2, c2])
@@ -136,3 +136,18 @@ def elm2cart(E, mu):
     r = np.matmul(Q, r_pqw)
     v = np.matmul(Q, v_pqw)
     return r, v
+
+def R1(phi):
+    return np.array([np.array([1, 0, 0 ]), np.array([0, np.cos(phi), np.sin(phi)]), np.array([0, -np.sin(phi), np.cos(phi)])])
+
+def R2(phi):
+    return np.array([np.array([np.cos(phi), 0, -np.sin(phi)]), np.array([0, 1, 0]), np.array([np.sin(phi), 0, np.cos(phi)])])
+
+def R3(phi):
+    return np.array([np.array([np.cos(phi), np.sin(phi), 0]), np.array([-np.sin(phi), np.cos(phi), 0]), np.array([0, 0, 1])])
+
+def deg2rad(input):
+    output = np.empty(np.size(input))
+    for i in range(np.size(input)):
+        output[i] = input[i]*np.pi/180
+    return output

@@ -11,8 +11,15 @@ e = [0.1, 0.3, 0.4, 0.5, 0.9]
 a = np.empty([np.size(i), np.size(e)])
 for k in range(np.size(e)):
     a[:, k] = np.multiply(-(1.5*(np.sqrt(MU)*JDos*RE**2)/((1-e[k]**2)**2*1.991e-7)), np.cos(i))**(2/7)
+    for l in a[:, k]:
+        index = np.where(a[:, k] == l)
+        rp = l*(1-e[k])
+        if rp < RE:
+            a[index, k] = None
 plt.plot(i*180/np.pi, a)
+plt.ylim([RE, 16000])
 plt.xlabel("Inclination [deg]")
 plt.ylabel("Semimajor Axis [km]")
 plt.title("Semimajor Axis vs. Inclination")
 plt.show()
+
