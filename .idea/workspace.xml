@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/366K/hw9/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/366K/hw9/4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/space_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/366K/hw9/earth_coastline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/366K/hw9/plotEarthCoastline.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -338,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572624631555</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="366K hw9, #3, part a">
+      <created>1573677666671</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1573677666671</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +383,8 @@
     <MESSAGE value="hw6 code, finger crossed" />
     <MESSAGE value="hw7 done" />
     <MESSAGE value="366 hw8, 320 hw 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="366 hw8, 320 hw 6" />
+    <MESSAGE value="366K hw9, #3, part a" />
+    <option name="LAST_COMMIT_MESSAGE" value="366K hw9, #3, part a" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
