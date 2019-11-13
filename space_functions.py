@@ -168,7 +168,6 @@ def orbit_prop_rk(r_0, v_0, T0, tF, dT):
 
     MU = 398600.4415
     RE = 6378.1363
-    jdos = 0.00108248
 
     def derivFcn(t, y):
         return two_body_orbit(t, y, MU)
