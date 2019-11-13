@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/320/hw6/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/320/hw6/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/366K/hw8/6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/366K/hw9/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/366K/hw9/4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/space_functions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +26,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/366K/hw5/4.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/space_functions.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/366K/hw9/plotEarthCoastline.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/366K/hw6/3.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/366K/hw5/3.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/366K/ode_example.py" root0="SKIP_INSPECTION" />
@@ -38,7 +39,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/366K/hw8/6.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/366K/hw9/3.py" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -66,7 +67,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.6">
+  <component name="RunManager" selected="Python.3">
+    <configuration name="3" type="PythonConfigurationType" factoryName="Python">
+      <module name="Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Gilbert\Documents\fall19\Code\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw9" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw9/3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="6" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ls3" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="plot_earth" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Gilbert\Documents\fall19\Code\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/320/hw6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw9" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/320/hw6/3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw9/plotEarthCoastline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,8 +154,9 @@
     </configuration>
     <list>
       <item itemvalue="Python.ls1" />
-      <item itemvalue="Python.ls3" />
+      <item itemvalue="Python.3" />
       <item itemvalue="Python.6" />
+      <item itemvalue="Python.plot_earth" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -308,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572278658670</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="366 hw8, 320 hw 6">
+      <created>1572624631555</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1572624631555</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,7 +377,8 @@
     <MESSAGE value="some small adjustments" />
     <MESSAGE value="hw6 code, finger crossed" />
     <MESSAGE value="hw7 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw7 done" />
+    <MESSAGE value="366 hw8, 320 hw 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="366 hw8, 320 hw 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
