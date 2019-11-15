@@ -14,6 +14,7 @@ init_cond = [7000, 0.01, 45, 0, -65, 0]
 theta_g_i = 0
 t_0 = 0
 P = 2*np.pi*np.sqrt(init_cond[0]**3/MU)  # seconds
+print(P)
 [r_a, v_a] = sf.elm2cart(init_cond, MU)
 [r, v] = sf.orbit_prop_rk(r_a, v_a, t_0, P*3, 60)
 time_series = np.arange(0, 3*P, 60)
@@ -42,14 +43,19 @@ plt.plot(earth_coastline[:, 0], earth_coastline[:, 1], 'k')
 #  Set the correct aspect ratio for the plot
 plt.axis('square')
 plt.axis([-180, 180, -90, 90])
-plt.scatter(lam, phi_gd, marker='.', c='r')
+plt.scatter(lam, phi_gd, marker='.', c='c')
+plt.title("Part A")
+plt.xlabel("Longitude(degrees)")
+plt.ylabel("Latitude(degrees)")
+
 # Orbit B
 init_cond = [60000, 0.1, 145, 20, -15, 0]
 theta_g_i = 0
 t_0 = 0
 P = 2*np.pi*np.sqrt(init_cond[0]**3/MU)  # seconds
+print(P)
 [r_a, v_a] = sf.elm2cart(init_cond, MU)
-[r, v] = sf.orbit_prop_rk(r_a, v_a, t_0, P*3, 60)
+[r, v] = sf.orbit_prop_rk(r_a, v_a, t_0, P*2, 60)
 time_series = np.arange(0, 2*P, 60)
 step = 0
 phi_gd = np.empty(np.shape(time_series))
@@ -76,13 +82,17 @@ plt.plot(earth_coastline[:, 0], earth_coastline[:, 1], 'k')
 #  Set the correct aspect ratio for the plot
 plt.axis('square')
 plt.axis([-180, 180, -90, 90])
-plt.scatter(lam, phi_gd, marker='.', c='r')
+plt.scatter(lam, phi_gd, marker='.', c='c')
+plt.title("Part B")
+plt.xlabel("Longitude(degrees)")
+plt.ylabel("Latitude(degrees)")
 
 # Orbit C
-init_cond = [2*RE, 0.1, 145, 20, -15, 0]
+init_cond = [2*RE, 0.5, 135, -100, -45, -135]
 theta_g_i = 0
 t_0 = 0
 P = 2*np.pi*np.sqrt(init_cond[0]**3/MU)  # seconds
+print(P)
 [r_a, v_a] = sf.elm2cart(init_cond, MU)
 [r, v] = sf.orbit_prop_rk(r_a, v_a, t_0, P*3, 60)
 time_series = np.arange(0, 3*P, 60)
@@ -111,12 +121,16 @@ plt.plot(earth_coastline[:, 0], earth_coastline[:, 1], 'k')
 #  Set the correct aspect ratio for the plot
 plt.axis('square')
 plt.axis([-180, 180, -90, 90])
-plt.scatter(lam, phi_gd, marker='.', c='r')
+plt.scatter(lam, phi_gd, marker='.', c='c')
+plt.title("Part C")
+plt.xlabel("Longitude(degrees)")
+plt.ylabel("Latitude(degrees)")
 
 # Orbit D
 M = 3
 N = 5
 a = np.cbrt(MU*((M/(N*omega_earth))**2))
+print(a)
 init_cond = [a, 0, 60, 100, 0, 0]
 theta_g_i = 0
 t_0 = 0
@@ -149,6 +163,9 @@ plt.plot(earth_coastline[:, 0], earth_coastline[:, 1], 'k')
 #  Set the correct aspect ratio for the plot
 plt.axis('square')
 plt.axis([-180, 180, -90, 90])
-plt.scatter(lam, phi_gd, marker='.', c='r')
+plt.scatter(lam, phi_gd, marker='.', c='c')
+plt.title("Part D")
+plt.xlabel("Longitude(degrees)")
+plt.ylabel("Latitude(degrees)")
 #  Show the plot
 plt.show()
