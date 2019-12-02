@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/366K/hw11/2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/366K/hw11/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw11/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/space_functions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +25,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/366K/hw5/4.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/366K/hw11/2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/space_functions.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/366K/hw6/3.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/366K/hw11/1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/366K/hw5/3.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/366K/ode_example.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/366K/hw6/2.py" root0="SKIP_INSPECTION" />
@@ -35,7 +40,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/366K/hw9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/366K/hw11/2.py" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -64,8 +69,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3">
-    <configuration name="3" type="PythonConfigurationType" factoryName="Python">
+  <component name="RunManager" selected="Python.2">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Gilbert\Documents\fall19\Code\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw11" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw9/3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw11/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,53 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Gilbert\Documents\fall19\Code\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw11" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw9/4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="6" type="PythonConfigurationType" factoryName="Python">
-      <module name="Code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Gilbert\Documents\fall19\Code\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw8" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw8/6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="plot_earth" type="PythonConfigurationType" factoryName="Python">
-      <module name="Code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Gilbert\Documents\fall19\Code\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/366K/hw9" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw9/plotEarthCoastline.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/366K/hw11/2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,10 +113,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.4" />
-      <item itemvalue="Python.3" />
-      <item itemvalue="Python.6" />
-      <item itemvalue="Python.plot_earth" />
+      <item itemvalue="Python.1" />
+      <item itemvalue="Python.2" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -363,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573841021737</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="starting hw 11">
+      <created>1575306233233</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1575306233233</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,7 +348,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hw 3-6" />
     <MESSAGE value="hw 3-7" />
     <MESSAGE value="changed total energy to change in total energy" />
     <MESSAGE value="number 4" />
@@ -405,7 +372,8 @@
     <MESSAGE value="jone's example" />
     <MESSAGE value="mostly done with 3" />
     <MESSAGE value="finished hw9" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished hw9" />
+    <MESSAGE value="starting hw 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting hw 11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -419,6 +387,11 @@
           <url>file://$PROJECT_DIR$/366K/hw7/2.py</url>
           <line>23</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/366K/hw11/2.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
