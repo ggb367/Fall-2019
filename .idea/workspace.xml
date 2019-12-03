@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc90a3d-da9d-44dd-8753-3164c7cc7aab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/366K/hw11/2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/366K/hw11/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw11/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/366K/hw11/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/366K/hw11/2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/space_functions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -331,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575306233233</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="hw11 1 and 2 done?">
+      <created>1575329424558</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1575329424558</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,7 +355,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hw 3-7" />
     <MESSAGE value="changed total energy to change in total energy" />
     <MESSAGE value="number 4" />
     <MESSAGE value="Code mostly done" />
@@ -373,7 +379,8 @@
     <MESSAGE value="mostly done with 3" />
     <MESSAGE value="finished hw9" />
     <MESSAGE value="starting hw 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting hw 11" />
+    <MESSAGE value="hw11 1 and 2 done?" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw11 1 and 2 done?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -387,11 +394,6 @@
           <url>file://$PROJECT_DIR$/366K/hw7/2.py</url>
           <line>23</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/366K/hw11/2.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -5,8 +5,7 @@ from scipy.integrate import ode
 from scipy.optimize import fsolve
 
 
-
-def orbit_prop(time_series, n, e, t_p):
+def orbit_prop(time_series, n, e, t_p):  # propogate an eliptical orbit
     # allocate memory for anomalies
     E = np.empty(np.size(time_series))
     M = np.empty(np.size(time_series))
@@ -35,7 +34,7 @@ def orbit_prop(time_series, n, e, t_p):
     return theta, E, M
 
 
-def hyper_orbit_prop(time_series, n, e, t_p):
+def hyper_orbit_prop(time_series, n, e, t_p):  # propogate a hyperbolic orbit
     # allocate memory for anomalies
     F = np.empty(np.size(time_series))
     M = np.empty(np.size(time_series))
@@ -64,7 +63,7 @@ def hyper_orbit_prop(time_series, n, e, t_p):
     return theta, F, M
 
 
-def cart2elm(r, v, mu, deg=True):
+def cart2elm(r, v, mu, deg=True):  # transform position and velocity to classical orbital elements
     h = np.cross(r, v)
     r_norm = lg.norm(r)
     v_norm = lg.norm(v)
@@ -114,7 +113,7 @@ def cart2elm(r, v, mu, deg=True):
     return E
 
 
-def elm2cart(E, mu, deg=True):
+def elm2cart(E, mu, deg=True):  # transform classical orbital elements to cartesian position and velocity
     # E - [a, e, i, RAAN, omega, theta]
     a = E[0]
     e = E[1]
@@ -141,22 +140,22 @@ def elm2cart(E, mu, deg=True):
     v = np.matmul(Q, v_pqw)
     return r, v
 
-def R1(phi):
+def R1(phi): # returns R1 transform matrix
     return np.array([np.array([1, 0, 0 ]), np.array([0, np.cos(phi), np.sin(phi)]), np.array([0, -np.sin(phi), np.cos(phi)])])
 
-def R2(phi):
+def R2(phi): # returns R2 transform matrix
     return np.array([np.array([np.cos(phi), 0, -np.sin(phi)]), np.array([0, 1, 0]), np.array([np.sin(phi), 0, np.cos(phi)])])
 
-def R3(phi):
+def R3(phi):  # returns R3 transform matrix
     return np.array([np.array([np.cos(phi), np.sin(phi), 0]), np.array([-np.sin(phi), np.cos(phi), 0]), np.array([0, 0, 1])])
 
-def deg2rad(input):
+def deg2rad(input):  # transform an array of degrees to radians
     output = np.empty(np.size(input))
     for i in range(np.size(input)):
         output[i] = input[i]*np.pi/180
     return output
 
-def orbit_prop_rk(r_0, v_0, T0, tF, dT):
+def orbit_prop_rk(r_0, v_0, T0, tF, dT):  # propogate an orbit about Earth using Runge-Kutta Method
     def two_body_orbit(t, Y, mu):
         dY = np.empty([6, 1])
         dY[0] = Y[3]
@@ -169,7 +168,6 @@ def orbit_prop_rk(r_0, v_0, T0, tF, dT):
         return dY
 
     MU = 398600.4415
-    RE = 6378.1363
 
     def derivFcn(t, y):
         return two_body_orbit(t, y, MU)
@@ -204,7 +202,8 @@ def orbit_prop_rk(r_0, v_0, T0, tF, dT):
         v_vec[i, 1] = output[i, 5]
         v_vec[i, 2] = output[i, 6]
     return r_vec, v_vec
-def CRTBP_prop_rk(r_0, v_0, T0, tF, dT, MU):
+
+def CRTBP_prop_rk(r_0, v_0, T0, tF, dT, MU):  # propogate an orbit in the CRTBP frame
     def CRTBP_orbit(t, Y, mu):
         dY = np.empty([6, 1])
         dY[0] = Y[3]
@@ -251,7 +250,7 @@ def CRTBP_prop_rk(r_0, v_0, T0, tF, dT, MU):
         v_vec[i, 2] = output[i, 6]
     return r_vec, v_vec
 
-def lagrange(mu):
+def lagrange(mu):  # returns a 2x5 vector of lagrange points given mu
     f = lambda r_x: r_x - (1 - mu) * (r_x + mu) / np.abs(r_x + mu) ** 3 - mu * (r_x - (1 - mu)) / np.abs(
         r_x + mu - 1) ** 3
 
@@ -259,5 +258,5 @@ def lagrange(mu):
     r_0_roots = np.array(fsolve(f, r_x))
     roots_x = np.append(r_0_roots, [.5 - mu, .5 - mu])
     roots_y = np.array([0, 0, 0, np.sqrt(3) / 2, -np.sqrt(3) / 2])
-    roots = np.column_stack((roots_x, roots_y))
-    return roots
+    points = np.column_stack((roots_x, roots_y))
+    return points
