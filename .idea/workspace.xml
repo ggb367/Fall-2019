@@ -69,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2">
+  <component name="RunManager" selected="Python.1">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -338,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575329424558</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="cleaned and commented code">
+      <created>1575342860200</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1575342860200</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,7 +362,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed total energy to change in total energy" />
     <MESSAGE value="number 4" />
     <MESSAGE value="Code mostly done" />
     <MESSAGE value="begin hw 4, turned in hw 3" />
@@ -380,7 +386,8 @@
     <MESSAGE value="finished hw9" />
     <MESSAGE value="starting hw 11" />
     <MESSAGE value="hw11 1 and 2 done?" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw11 1 and 2 done?" />
+    <MESSAGE value="cleaned and commented code" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned and commented code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,6 +401,11 @@
           <url>file://$PROJECT_DIR$/366K/hw7/2.py</url>
           <line>23</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/366K/hw11/2.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

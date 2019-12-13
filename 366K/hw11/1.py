@@ -1,5 +1,4 @@
 import numpy as np
-import space_functions as sf
 from scipy.optimize import fsolve
 
 # givens

@@ -1,6 +1,7 @@
+import math as m
+
 import numpy as np
 import numpy.linalg as lg
-import math as m
 from scipy.integrate import ode
 from scipy.optimize import fsolve
 
